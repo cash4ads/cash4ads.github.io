@@ -1,0 +1,418 @@
+<html>
+<head>
+	<title>UNIFROG</title>
+	<style type="text/css">
+	body
+	{
+		text-align:center;
+		font-family:Arial,Verdana,sans-serif;
+	}
+	pre
+	{
+		font-size:6pt;
+	}
+	</style>
+	<script type='text/javascript'>
+	var frames = Array();
+	frames[0] = '                                                                    \n\
+                            _,                          \n\
+                   __s)2ooo2r+l,                        \n\
+                  /*1Ivvnvv}; <=                        \n\
+                  :++|||IlIl>++ii                       \n\
+                   :::::=+|lllllli                      \n\
+                     :..::::+|{lvl;                     \n\
+                      :::::==++Ivvi                     \n\
+                      -=+|+|||lvnov;                    \n\
+                       |+||||ivnooni                    \n\
+                      :|||i|illvnnv|`                   \n\
+                     _>+||||<i||inoii;                  \n\
+                _,_)|i=|==i|i|i||l1v%=.                 \n\
+             ,svovI>++- ||i|iviii||vnc;                 \n\
+         _Snoni+++=-    +|iIvvvlli||vvns/"              \n\
+     ___1**++=--        ||iIIviii|ivI}>^                \n\
+ ___J1i+---             ||illIiiiiivv(;                 \n\
+  .|.._                 +||iiii|i|ii||=                 \n\
+     `                  |+||<>|>|+||ivc                 \n\
+                        ++|+|=|||+++<vo|                \n\
+                       _i=+++||++|++|)ov=               \n\
+                      )|i|===+==+==:={nIii              \n\
+                     .i||+|;=;====;::)vIii_             \n\
+                    :||+++=::::::::::=lvlii,            \n\
+                   _;|+==::;:` .-:_.:+invli`            \n\
+                   ;|=;::.`..:::+==-.=|vIll;            \n\
+                  i+::-    --- ;---` -=iIii<            \n\
+                 =i=;.         ;      -|Ii|+            \n\
+                 =i>;:.        ;       +vl|:            \n\
+                  =ili+_      ).       =vl+;            \n\
+                  -~<|==.     =;      _)nv+             \n\
+                    -=ii;    _iv      =nnl+             \n\
+                       ^||:  -:i|_   :vvvi=             \n\
+                        .::.:::i+..  =vvl|~             \n\
+                      ,;:::`...v;.. .=vv>|              \n\
+                     ::--:.==::l;; ;:)nv|+              \n\
+                   .::;i-::::::%;- .=vvi+^              \n\
+                   =:==   :`:=:i: .:<lvi=               \n\
+                  ;::`-;  .=<;`%= `;ivI=;               \n\
+                 _;_;-:.-_ .==_(~.;_Ivl+:.              \n\
+                 .:;`   +< -+=<>.= =lI>::-              \n\
+                 =-(==,   ::.:=>:_:=l>= ::              \n\
+                 ;<`-:;:..;:====;-.)v>=;::              \n\
+                i:=.    ~-.::;=s==:vi;-:::              \n\
+                |:=:..:+-::;:;;<|.)v|; .::              \n\
+                i:):==---:.:;::<| %v:+<;::              \n\
+                ~:=-`   ..:~:::)=;v%~-:::.              \n\
+                 ;.=`.==- ==`=:l;|n=, -::               \n\
+                 `:<;:;- ;:`;=:v-lv/-..:-               \n\
+                  ::;-  ==;.=::v n>   :;`               \n\
+                  `:==.++: ==`=} Ii;=:;,                \n\
+                  -.:-:--`.=. |>.+"i==<                 \n\
+                    -::;~ .=. .:=-;:-                   \n\
+                      .:::::::...::.                    \n\
+                       .=--:-.. :-                      \n\
+                          -    `                        ';
+    frames[1] = '                                                                    \n\
+                            _,                          \n\
+                    _,Jooooor^{;                        \n\
+                  =*{1vvvvvv( :i_                       \n\
+                   +=|=i|Ill>+|ii                       \n\
+                   --::::+=illllli;                     \n\
+                     .-:::::++|llI|                     \n\
+                     -;::::==++ivvl,                    \n\
+                       |++|+||ivnnn(                    \n\
+                       _|<|||ilvo2nl,                   \n\
+                       |||||iillnov>=,                  \n\
+                      i+++|<i|i||vovi;                  \n\
+                _i_=ii++i+|i|ii|i|{1v%=                 \n\
+           _,Jooovii>+;  |||ilviii=ivnv   _             \n\
+       _Jn11vl|=|==-    |||IvIviiiis|vv}>               \n\
+ ,___s_!<+<+----        ||iIlIviiiivs>|;                \n\
+ ~-==~-=                +|iilIiiii|v(+|;                \n\
+     `                  |+<iiiiii|i|ii>;                \n\
+                        |+|=|||||+||ivi;                \n\
+                        _|+||+|++|++|{o(                \n\
+                       _v>=++++|+++=|<noi_              \n\
+                      _lli===++=++==:<{nvl_,            \n\
+                      %iiii=======;:::=InonI,           \n\
+                    _=i|i=+==;.::::::. ~IInnIi,         \n\
+                    =i|+===- .. +._.-..-=|Ivvl(,        \n\
+                   :i|===:;_::.:=++;...  -+<vIi=        \n\
+                   i|+;;;` --- =---~       ++vvi,       \n\
+                  _i=::-       >            -<ii:       \n\
+                 .l==;         ;            =i>|:       \n\
+                 li;.          ;           _iIi|:       \n\
+                 vnnc.        _;           :il|+;       \n\
+                 =o21i       _iv_          :i|=|`       \n\
+                 -no1l    .....<i_         >||+=        \n\
+                  vonv, .::....v+-..       <|+==        \n\
+                  =nnv==::,-:.:%=:....     <|=<,        \n\
+                   )}=:.-= :;:;v;  :....  i|=+.         \n\
+                   :+:;+_=. .:`l:  :,...  |||=.         \n\
+                   +::`  :_  : %| =- .... +=+-`         \n\
+                  ;:==:_  ;..; i +: ._,.: ||=`          \n\
+                 .=_,==-.,-.==_l ;  ;  ::-|+-           \n\
+                *=:/<i=+~; :===%= .:   ;-:i=`           \n\
+                 ;:(=%|_~-:-~;=>:./   .-.=|=            \n\
+                 =_==:=+!.=;:;==+|_.==<=:|++            \n\
+                _;=----==::::==s|---   .:|+;            \n\
+                i:<     _.~:;;;+|+||=....i|`            \n\
+                ~;=..:;:- ==;=:::.+-=||=:|i_            \n\
+                 :::--`  .:.:::::-=. -`<=;|=vI1(        \n\
+                 =:>` .+: :;;;;:--. . -..               \n\
+                 .::__=~ .=/`=.; ::  -::                \n\
+                  :::=   ;=.;=:; -=` ...`               \n\
+                   ;==. ==;:=< ;; .=:;:.                \n\
+                   .:-:.|- ;=. =; ;:::;                 \n\
+                    -::::` >:. ;;=.;:                   \n\
+                      .:::.::::::::.                    \n\
+                      - . :::::.:-                      \n\
+                          ~ . -`                        ';
+    frames[2] = '                                                                    \n\
+                           _,                           \n\
+                   __sooo2oe+<;                         \n\
+                 .*Invvnvvv=--l,                        \n\
+                 -=|=i|lvvi|+||i_                       \n\
+                  -.:::==+{vliili                       \n\
+                   ` :--:::~+<lvvl                      \n\
+                    :;:-:::==|<vvi;                     \n\
+                      :|+|+||ivvoov                     \n\
+                      :|+|||iivoonI(                    \n\
+                      |+|i|iiiInnvi<                    \n\
+                    _%=|+|||||i|Inn%=,                  \n\
+               ___)ii|=-||||ii||+*ilai, __              \n\
+         _,JoonovIi|==` +||ii%iii|=|Ivvv+               \n\
+      _onv1}||==+=--`   ||iIvvliiivs|>|                 \n\
+,____*|~~-~-- `        _|iilvlliliIvi|<                 \n\
+  :=::;                i||ilviiiiiil|||                 \n\
+                       s=|ii|ii|i|ii|>+                 \n\
+                        |+=|||||+|||vs=                 \n\
+                        =||+++++|=++ivn;                \n\
+                       _|;++||+|+|=<+)nov_              \n\
+                      .li|======+;;:=<|1oovs_,          \n\
+                      %Iii===;=;;;:::::|<nonnn;         \n\
+                      i|||{i>;::::-:    -||Innns,       \n\
+                      li+|=+=-`-:_:.-`   ~-+|{IvI,      \n\
+                     _i||==:.::=++=:-..      -=iii      \n\
+                     :i++=:=;-.:--~          =|>|=      \n\
+                    _=i|=;=`  )`            .|>|=`      \n\
+                    =v>+;:    =;            /|+==,      \n\
+                    )i|:;     =;            |====       \n\
+                    =v==~     =`           .+|=;,       \n\
+                    )n>:     _ii           :|+==        \n\
+                    )vo|_ . --:l|_         (+=-`        \n\
+                   -{no|+::.:-:l=....      |==,         \n\
+                    )n};:-:`:,_I=.....    _|:           \n\
+                    :|-:=:._)c=s ::.:.-   |+.           \n\
+                   .::_~_ `:)s;s ;:- ...  |:`           \n\
+                   =::=+|  :)i=v :` :-..` +=            \n\
+                  .;<=n|=: .=i=}:~ :/` :- +:            \n\
+                 .==_)e+-:.--<+>; :- =l:::=/<>""        \n\
+                 .;=>||;  `..=;(=+: )l;`::              \n\
+                 >:>.=;;_  :;;=>:-_I=/` ..              \n\
+                 ;.~`:s=-..:===>:i>`   :..              \n\
+                 ;)__)1i   ;;:=si|.:=.:.-.              \n\
+                 ;)-=;:=- <:;;:++      :..              \n\
+                 ::-`=ni.:-;==:::./._.  :.              \n\
+                 ;;=,=};:;.:;;:.|;`-=;::..              \n\
+                _;:>:;:; .:+==;;= =:  -::-              \n\
+                ^:::==+=.; ::=;+;_-;;..:.               \n\
+                  :::--==;.=.:: =; :<;;;                \n\
+                  .::==|  ;;..= i;. ::=.                \n\
+                   .:=:- .=- .=  ;=.;;:                 \n\
+                   -`.:=::;; .= .;:::                   \n\
+                      ::::::.::.::..                    \n\
+                      - =..::::-.--                     \n\
+                          ` . -`                        ';
+    frames[3] = '                                                                    \n\
+                           ,                            \n\
+                   _s)2oo2e+{(                          \n\
+                _)12vnvnvv>.=i_                         \n\
+                ~|=||ilIIl>;||i,                        \n\
+                 -:::;==+iIlilllv                       \n\
+                   .:-::-==+<lIvl                       \n\
+                    -:-::::++<lvv_                      \n\
+                     :==|+|+|ivonI(                     \n\
+                     =|+|||iivooov=                     \n\
+                     :+||i|iilvool|;                    \n\
+                    =|+|+|||i||vonii,                   \n\
+               ___)i>=;+|=i|i|>|l11v=.                  \n\
+           _,sv2lli=<; |||iiiii|=|vvi;                  \n\
+        _Snno}+|==:    +|iilvllils=vvnn}`               \n\
+     ,_1**|+|--~      =||iIIlliiilv%vi+.                \n\
+___s_X>=---            =+iillliii|IIv||;                \n\
+ )=;.                 =++<ii|i|i|ii||/`                 \n\
+                      -|+|=|||||+|+ivc,                 \n\
+                       i=||+|++|++||vn%                 \n\
+                      _|==++|+|=|===)nov__              \n\
+                      =ii+=====+==:=+{noXnns_           \n\
+                      lli|+::=:=;:::::+vnoonn(,         \n\
+                      lii|i|;:=::-::.  +=Inoonv;        \n\
+                      <i|+|==~ .._.:-`  -~|+{n1I,       \n\
+                      :i|+=-:.:|=+=:.=;    ->vii;       \n\
+                      l|++::. = --`        =vv>|;       \n\
+                      }||==-  :          _vv1>+-        \n\
+                      :i+=:,  :         _vvI>=`         \n\
+                      :|=:-   :        _li|+:`          \n\
+                      =|=:`   :       .si|==            \n\
+                      =|==   _|s     )ll|=;`            \n\
+                      =|=;=.-::1 _  ./|=:-              \n\
+                      =i=:..:;:c:.._I+--`               \n\
+                      :::.:-.. s..=v=.                  \n\
+                    .::.=.:+=: i=_l:..:.                \n\
+                   .;::+=::=== i=-==_>_,                \n\
+                   =;_`~i::=>; || ,<~"++`               \n\
+                  .;)(  ii:=== l|_=  .:.:               \n\
+                 .+:=,  iv(.==`lv: .:.-.:-              \n\
+                 :;=; ==ii|:==={|-.:;  -::              \n\
+                 ;:..   ~ ==:;=l|.;  .;;.:              \n\
+                 =:=:;.../i::;:i|=..:_==::              \n\
+                 ;=----=;--==:=v|_--   ::;              \n\
+                 ;+.    _.+=;=:=+=.=`...;:              \n\
+                 ;=._=::  ==:=:::.---:+=;:              \n\
+                 ::==;   ::;=;:=:~;    ;;:              \n\
+                 -:=.  .;:.=;;;:-:.-;..:;~              \n\
+                 .:=,__=-.:===`;_=:, :;;-               \n\
+                  ::==<2o+=|==:=|~=. .;=,               \n\
+                  .::= ~=;===; =; :=-:;.                \n\
+                   -::;.==-~== ;;  ::;:                 \n\
+                     ::=:. .=. ;==:::                   \n\
+                      ,:-:::::.;.::.                    \n\
+                      - .:.::::::-                      \n\
+                          -. .                          ';
+    frames[4] = '                                                                    \n\
+                           ,                            \n\
+                   __Jooo2e+<<                          \n\
+                _)1Soovnvv( =l(                         \n\
+                 |=||ilIll|==|i;                        \n\
+                 -:-::==+lIllllli                       \n\
+                   ;:-:::;++|iIIl                       \n\
+                    -::::;:==|lvI_                      \n\
+                     .=+|+|||lvonI;                     \n\
+                     _|++|||ivnooI>                     \n\
+                     :+|i|iillvool|;                    \n\
+                    :||+||||||ivovii,                   \n\
+               _=_)l>>-|+=i|ii||Inv%=.                  \n\
+             _Jovli==; +|iiiiiii+ivvi:                  \n\
+        _Jnnn1||==:`   ||iilvliii+)nvi__,               \n\
+     ,iv1*|+<:--~     =+|ilIliliivsIn}{~                \n\
+  __J}=+=--           =+|illliiiilli><;                 \n\
+-^<;:-.~               =+|||iiii>|i%iii;                 \n\
+    -                  |++|||||=|i|<vs;                 \n\
+                       _|+|=+++||++|von,                \n\
+                      _i+=+|+|+|=+=+)nn(                \n\
+                      =ii=====+=+=:=<nnn(_              \n\
+                      lii||;;;=;=;::=)SnvIl             \n\
+                      |l|||=:-::-:::/<voonl;            \n\
+                      i||==:=`..._.:-+{noolI            \n\
+                     =|++=::-.:+++=:.:=|2oIi            \n\
+                     =++;=:=;-:---`    >nvii            \n\
+                     :|=:;;   :       _vnv|:            \n\
+                     -+=:-    :      _)onvi;            \n\
+                     ==;:     :     |vnnvi+`            \n\
+                     =+;=.    :    _vvnl|+              \n\
+                     :+=|,   _|s   vvvl>=               \n\
+                     :ili+; :-:v+_)vvi+=`               \n\
+                      -+|-...;;c:=vvi+=                 \n\
+                      .=:::-=::c_vnl+=:                 \n\
+                    .=:.+:.:=|;iIvI+=::.                \n\
+                   .;:_|---:=i:ivl|:.::.                \n\
+                   ;;=:+=  ;=i=vi=- ::.:`               \n\
+                  ::+(  =: :={v>:- .- .::               \n\
+                  ==;    :: :i>=:_;;  :::=              \n\
+                 ::<>;.   :_=v==::= ._< ::              \n\
+                 ;:.-:=:.  =+===:=;:=;`.::              \n\
+                 +:+` ==;;_=+=+|=+=i.  :.;              \n\
+                 ;=;__|~==::.=:*".:+==:=::              \n\
+                 ;=:=:=;---=:::-=-==i; :-:              \n\
+                 :=:`   . ::=:::::::=, -::              \n\
+                 ::>`..:-- ;:::: :`:==+:;:              \n\
+                 ~:==/;~  ===:::: ;: :=::~              \n\
+                 .::;-   : :-=:::_ =;..:-               \n\
+                  ::;.  +,.:.:: := :<=:;,               \n\
+                  .::=.+  :.. = i;` ::;-                \n\
+                   :::::  :-`.=  ;=:::-                 \n\
+                     ::=:.;. .;  ::;:                   \n\
+                      .::::.::-.:::.                    \n\
+                      -  :-::::-: -                     \n\
+                          ~ . -                         ';
+    var frame = 0;
+    function doAwesomeShit()
+    {
+    	document.getElementById('unifrog').innerHTML = escapeHtml(frames[frame]);
+    	frame += 1;
+    	if(frame > 4)
+    		frame = 0;
+    }
+	function escapeHtml(unsafe) {
+	return unsafe
+		.replace(/&/g, "&amp;")
+		.replace(/</g, "&lt;")
+		.replace(/>/g, "&gt;")
+		.replace(/"/g, "&quot;")
+		.replace(/'/g, "&#039;");
+	}
+	</script>
+</head>
+<body>
+	<h1>404</h1>
+	<h2>Cash Not Found</h2>
+	<pre id="unifrog">
+	</pre>
+	We can't find your cash for the ads.<br/>
+	<a href='http://cash4ads.biz'>Home?</a>
+	<!--Credits: https://gist.github.com/644181-->
+	<audio src="/8bitrequiem.ogg" id="mp3" preload="auto" autoplay=true loop=true></audio>
+	<script>
+    setInterval(function(){doAwesomeShit()},100);
+	</script>
+	<script language="javascript" type="text/javascript">
+	/* Visit http://www.yaldex.com/ for full source code
+	and get more free JavaScript, CSS and DHTML scripts! */
+	<!-- Begin
+	var no = 50;
+	var speed = 15;
+	var ie4up = (document.all) ? 1 : 0;
+	var ns4up = !ie4up;
+	var s, x, y, sn, cs;
+	var a, r, cx, cy;
+	var i, doc_width = 800, doc_height = 600;
+	if (ns4up) {
+	doc_width = self.innerWidth;
+	doc_height = self.innerHeight;
+	}
+	else
+	if (ie4up) {
+	doc_width = document.body.clientWidth;
+	doc_height = document.body.clientHeight;
+	}
+	x = new Array();
+	y = new Array();
+	r = new Array();
+	cx = new Array();
+	cy = new Array();
+	s = 8;
+	for (i = 0; i < no; ++ i) {
+	initRain();
+	document.write("<div id=\"dot"+ i +"\" style=\"POSITION: ");
+	document.write("absolute; Z-INDEX: "+ i +"; VISIBILITY: ");
+	document.write("visible; TOP: 15px; LEFT: 15px;\"><font color=\"blue\">");
+	document.write(",</font></div>");
+	}
+	function initRain() {
+	a = 6;
+	r[i] = 1;
+	sn = Math.sin(a);
+	cs = Math.cos(a);
+	cx[i] = Math.random() * doc_width + 1;
+	cy[i] = Math.random() * doc_height + 1;
+	x[i] = r[i] * sn + cx[i];
+	y[i] = cy[i];
+	}
+	function makeRain() {
+	r[i] = 1;
+	cx[i] = Math.random() * doc_width + 1;
+	cy[i] = 1;
+	x[i] = r[i] * sn + cx[i];
+	y[i] = r[i] * cs + cy[i];
+	}
+	function updateRain() {
+	r[i] += s;
+	x[i] = r[i] * sn + cx[i];
+	y[i] = r[i] * cs + cy[i];
+	}
+	function raindropNS() {
+	for (i = 0; i < no; ++ i) {
+	updateRain();
+	if ((x[i] <= 1) || (x[i] >= (doc_width - 20)) || (y[i] >= (doc_height - 20))) {
+	makeRain();
+	doc_width = self.innerWidth;
+	doc_height = self.innerHeight;
+	}
+	document.getElementById("dot"+i).style.top = y[i];
+	document.getElementById("dot"+i).style.left = x[i];
+	}
+	setTimeout("raindropNS()", speed);
+	}
+	function raindropIE() {
+	for (i = 0; i < no; ++ i) {
+	updateRain();
+	if ((x[i] <= 1) || (x[i] >= (doc_width - 20)) || (y[i] >= (doc_height - 20))) {
+	makeRain();
+	doc_width = document.body.clientWidth;
+	doc_height = document.body.clientHeight;
+	}
+	document.all["dot"+i].style.pixelTop = y[i];
+	document.all["dot"+i].style.pixelLeft = x[i];
+	}
+	setTimeout("raindropIE()", speed);
+	}
+	if (ns4up) {
+	raindropNS();
+	}
+	else
+	if (ie4up) {
+	raindropIE();
+	}
+	//  End -->
+	</script>
+</body>
+</html>
